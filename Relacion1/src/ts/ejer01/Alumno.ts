@@ -70,9 +70,10 @@ export class Alumno{
     toString(): string{
         return "Nombre: "+this.nombre+"<br>"+
                 "Curso: "+this.curso+"<br>"+
-                "Repetidor: "+this.repetidor+"<br>"+
+                "Repetidor: "+(this.repetidor ? "Si" : "No")+"<br>"+
                 "Notas: "+this.notas+"<br>"+
                 "Nota Final: "+this.notaFinal();
+
     }
 
 
