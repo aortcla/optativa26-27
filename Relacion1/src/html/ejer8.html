@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio 8 - Datos de un formulario</title>
+    <script src="../js/ejer08.js" defer></script>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; padding: 0 16px; }
+        .fila { margin-bottom: 18px; }
+        label { display: block; font-weight: bold; margin-bottom: 4px; }
+        input { padding: 6px; width: 60%; }
+        button { padding: 6px 12px; cursor: pointer; }
+        .resultado { margin-top: 6px; color: #1a56a0; min-height: 1.2em; }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 8</h1>
+
+    <a href="../../index.html">Inicio</a>
+
+    <div class="fila">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" placeholder="  ana garcía  ">
+        <button id="btnNombre">Normalizar nombre</button>
+        <div class="resultado" id="resNombre"></div>
+    </div>
+
+    <div class="fila">
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" placeholder="25">
+        <button id="btnEdad">Leer edad</button>
+        <div class="resultado" id="resEdad"></div>
+    </div>
+
+    <div class="fila">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="ana@gmail.com">
+        <button id="btnFormulario">Convertir a Formulario</button>
+        <div class="resultado" id="resFormulario"></div>
+    </div>
+
+    <p id="info"></p>
+
+</body>
+</html>
